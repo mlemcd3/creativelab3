@@ -1,12 +1,30 @@
-<template>
+<!-- <template>
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
+    <ticTacToe/>
+  </div>
+</template> -->
+
+
+<template>
+  <div id="app">
+    <tic-tac-toe />
   </div>
 </template>
+
+<script>
+import ticTacToe from "./components/Game.vue";
+
+export default{
+  components:{
+    ticTacToe
+  },
+}
+</script>
 
 <style>
 #app {

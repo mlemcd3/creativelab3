@@ -1,14 +1,16 @@
 <template>
   <div class="home">
+    <tic-tac-toe />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
+import ticTacToe from "../components/Game.vue";
 
-export default {
+export default{
   name: 'Home',
-  components: {
-  }
+  components:{
+    ticTacToe
+  },
 }
 </script>

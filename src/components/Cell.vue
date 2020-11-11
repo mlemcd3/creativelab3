@@ -14,12 +14,13 @@
 
 <style>
   .cell {
-    width: 64px;
-    height: 64px;
+    width: 70px;
+    height: 70px;
     border: 2px solid rgb(75,75,75);
     font-size: 42px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
   }
 </style>
